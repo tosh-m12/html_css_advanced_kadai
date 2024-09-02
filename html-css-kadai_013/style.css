@@ -86,7 +86,7 @@ SP用のスタイル
   #menu-sp {
     float: right;
     padding: 0;
-    border: none;
+    /* border: none; */
   }
 
   #nav-sp {
@@ -100,7 +100,7 @@ SP用のスタイル
     z-index: 100;
   }
 
-
+  /* ↓↓？？？↓↓ */
   #nav-sp ul {
     padding-left: 0;
   }
@@ -108,13 +108,14 @@ SP用のスタイル
   #nav-sp li {
     list-style: none;
   }
+  /* ↑↑？？？↑↑ */
 
   #close {
     position: absolute;
     top: 20px;
     right: 20px;
-    background-color: transparent;
-    border: none;
+    /* background-color: transparent; */
+    /* border: none; */
   }
 
   #logo-sp {
@@ -134,7 +135,7 @@ SP用のスタイル
   }
 
   #nav-sp a:hover {
-    columns: #fff;
+    color: #fff;
     text-decoration: underline;
   }
 
@@ -151,11 +152,5 @@ SP用のスタイル
     background-image: url("images/arrow.png");
     background-repeat: no-repeat;
     background-position: right top;
-
   }
-
-
-
-
-
 }
